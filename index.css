@@ -23,7 +23,6 @@ body{
     margin-top: 20px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
     width: 35%;
     left: 30%;
     top: 50px;
@@ -56,16 +55,16 @@ input{
 
 
 /* for phones and smaller devices */
-@media only screen and (min-width: 430px){
+@media only screen and (max-width: 300px){
     .form{
         display: block;
         position: relative;
         left: 0%;
-        width: 90%;
+        width: 98%;
     }
 
     .firstname,.password,.btn{
-        width: 83%;
+        width: 73%;
     }
 }
 
