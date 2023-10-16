@@ -69,22 +69,6 @@ input{
     }
 }
 
-
-@media only screen and (max-width: 0px){
-    .form{
-        display: block;
-        position: relative;
-        left: 0%;
-        width: 100%;
-    }
-
-    .firstname,.password,.btn{
-        position: relative;
-        display: block;
-        width: 0%;
-    }
-}
-
 @media only screen and (max-width: 600px){
     .form{
         display: block;
